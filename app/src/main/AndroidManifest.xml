@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jihcproject2">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JihcProject2">
+        <activity android:name=".mugalimderPage"></activity>
+        <activity android:name=".toolbar1" />
+        <activity android:name=".profile" />
+        <activity android:name=".buhgalteriaPage" />
+        <activity android:name=".uirmelerPage" />
+        <activity android:name=".kitaphanaPage" />
+        <activity android:name=".bastyBet" />
+        <activity android:name=".loginPage" />
+        <activity android:name=".whoAreYouPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

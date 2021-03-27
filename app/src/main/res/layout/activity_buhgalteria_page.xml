@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buhgalteriaPage"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbarbuh"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="310dp"
+        android:layout_marginLeft="1dp"
+        android:src="@drawable/tortburysh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="Бас бухгалтер"
+            android:textColor="#EB000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:text="Исабекова Дарина"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+             />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phonezhasyl"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="85dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+7 747 569 85 96"
+            android:layout_marginTop="88dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="243dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+            android:text="Бухгалтер"
+            android:textColor="#EB000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="170dp"
+            android:text="Бирденеева Айжан"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phonezhasyl"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="162dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+7 777 574 85 96"
+            android:layout_marginTop="165dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="243dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="220dp"
+            android:text="Бухгалтер"
+            android:textColor="#EB000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="250dp"
+            android:text="Исабекова Дарина"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phonezhasyl"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="242dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+7 747 569 85 96"
+            android:layout_marginTop="245dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_marginLeft="243dp"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тамаққа төлем"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnoqu"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            app:cornerRadius="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#089092"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btnoqu">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Наурыз, 2021"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/white"
+                android:textSize="17dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/tenge"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="110dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34,985"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="19dp"
+                android:textColor="@color/white"
+                android:textSize="19dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оқу ақысы"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnoplata"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+
+            app:cornerRadius="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#089092"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btnoplata">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Наурыз, 2021"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/white"
+                android:textSize="17dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/tenge"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="110dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25,895"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="19dp"
+                android:textColor="@color/white"
+                android:textSize="19dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Степендия"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnstepak"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+
+            app:cornerRadius="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#089092"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btnstepak">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Наурыз, 2021"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+
+                android:textColor="@color/white"
+                android:textSize="17dp"/>
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/tenge"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="110dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20,800"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="19dp"
+                android:textColor="@color/white"
+                android:textSize="19dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

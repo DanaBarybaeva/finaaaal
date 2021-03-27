@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".whoAreYouPage"
+    android:background="@drawable/backgroundphoto"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonokushy"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#339999"
+        android:text="Оқушы"
+        android:textSize="20dp"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/buttonteacher"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#339999"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:text="Мұғалім"
+        app:cornerRadius="12dp" />
+
+    <Button
+        android:id="@+id/buttonqonaq"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#339999"
+        android:textSize="20dp"
+        android:text="Қонақ"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>

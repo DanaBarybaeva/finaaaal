@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bastyBet">
+
+    <include
+        layout="@layout/toolbarbasty"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="11dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Ж"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="аңалықтар" />
+
+    </FrameLayout>
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/news1"
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/volleyballphoto"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/news1">
+                    <TextView
+                        android:layout_width="90dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="170dp"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:textSize="13dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Қыздар арасындағы воллейбол"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="II орын"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="170dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/news2"
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/novost2"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/news2">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="120dp"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:text="Jameco alumini online summit"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="6 March, 18:00"
+                    android:layout_marginTop="65dp"
+                    android:layout_marginLeft="130dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                     />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/news3"
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/news3"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/news3">
+                    <TextView
+                        android:layout_width="110dp"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="135dp"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Құндылыққа негізделген апта"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="15 наурыз"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="145dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="13dp"
+                     />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        >
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="14dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Ji"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="hc" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btnsabaqkestesi"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+
+            android:background="@drawable/jihc3"
+            android:text="Сабақ кестесі"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            app:backgroundTint="@null" />
+        <Button
+            android:id="@+id/btnuirmeler"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+
+            android:background="@drawable/jihc2"
+            android:text="Үйірмелер"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnbuhgalteria"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+            android:background="@drawable/lihc4"
+
+            android:layout_marginLeft="5dp"
+            android:text="Бухгалтерия"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            app:backgroundTint="@null"/>
+        <Button
+            android:id="@+id/btnkitaphana"
+            android:layout_width="190dp"
+            android:layout_height="130dp"
+
+            android:background="@drawable/kitaphana"
+            android:text="Кітапхана"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            app:backgroundTint="@null"/>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="М"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="14dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="ұғалімдер" />
+
+        <ImageButton
+            android:id="@+id/btnnext"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_navigate_next_24" />
+
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/mugalim01"
+                app:backgroundTint="@null" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim02"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim03"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim04"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim05"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim06"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/mugalim07"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
